@@ -2,12 +2,12 @@ import requests
 from bs4 import BeautifulSoup
 import re
 import json
-
-missing_count = 0
+import sys
+from os.path import exists
 
 all_profs_url = "https://culpa.info/browse_by_prof"
 prof_url = lambda prof_id: f"https://culpa.info/prof/{str(prof_id)}"
-course_url = lambda course_id: f"https://culpa.info/prof/{str(course_id)}"
+course_url = lambda course_id: f"https://culpa.info/course/{str(course_id)}"
 review_url = lambda review_id: f"https://culpa.info/review/{str(review_id)}"
 
 all_profs_file = "_pages/all_profs.html"
@@ -174,7 +174,17 @@ def parse_all_profs(html):
             }
     return profs
 
-def parse_prof(html, prof_id):
+# Professor JSON schema:
+# { 1234: 
+#       { "prof_id": 1234,
+#         "name": "First Last",     # maybe change this for easier sorting
+#         "depts": ["COMS", "MATH"],
+#         "nugget": "none",         # or "gold" or "silver"
+#         "courses": [5, 8, 27, 84],    # a list of course IDs
+#         "reviews": [1850, 1385, 1345] # a list of review IDs
+#       }
+# }
+def parse_prof(html):
     soup = BeautifulSoup(html, 'html.parser')
     prof = {}   # We will update the professor's JSON
 
@@ -211,60 +221,92 @@ def parse_prof(html, prof_id):
     prof['reviews'] = []
     review_tags = soup.find_all('div', class_='card')
     for tag in review_tags:
-        if 'data-reviewpk' in tag:
-            prof['reviews'].append(tag['data-reviewpk'])
+        if tag.get('data-reviewpk'):
+            prof['reviews'].append(tag.get('data-reviewpk'))
         else:
-            global missing_count
-            missing_count += 1
-            print("writing missing", missing_count, "for", prof_id)
-            with open(f"_pages/missing/missing_{prof_id}_{missing_count}.html", "w") as fp:
-                fp.write(tag.prettify())
-
-    # Professor JSON schema:
-    # { 1234: 
-    #       { "prof_id": 1234,
-    #         "name": "First Last",     # maybe change this for easier sorting
-    #         "depts": ["COMS", "MATH"],
-    #         "nugget": "none",         # or "gold" or "silver"
-    #         "courses": [5, 8, 27, 84],    # a list of course IDs
-    #         "reviews": [1850, 1385, 1345] # a list of review IDs
-    #       }
-    # }
-
-    # Review JSON schema:
-    # { 1850:
-    #   { "review_id": 1850,
-    #     "date": "2022-08", # monthly only for anonymity
-    #     "course": 8,
-    #     "prof": 1234,
-    #     "content": "I hate this guy!"
-    #   }
-    # }
-            
-    # Course JSON schema:
-    # { 8:
-    #       { "course_id": 8,
-    #         "dept": "COMS",
-    #         "name": "Advanced Programming"
-    #       }
-    # }
+            print("prof has no reviews")
 
     return prof
 
+# Review JSON schema:
+# { 1850:
+#   { "review_id": 1850,
+#     "date": "2022-08", # monthly only for anonymity
+#     "course": 8,
+#     "prof": 1234,
+#     "content": "I hate this guy!"
+#   }
+# }
 def parse_review(html):
     soup = BeautifulSoup(html, 'html.parser')
     review = {}
-    # get course name
-    # get prof name
-    # get date
-    return None
+    if soup.find('div', class_='card') is not None:
+        data_table = soup.find('div', class_='card').table
+    else:
+        return None
 
+    # get course id
+    course_tag = data_table.find(
+            lambda t: t.name=='a' and
+            t['href'].startswith('/course/'))
+    if course_tag is not None:
+        review['course_id'] = course_tag['href'].split('/')[-1]
+
+    # get prof id
+    review['prof_id'] = data_table.find(
+            lambda t: t.name=='a' and
+            t['href'].startswith('/prof/'))['href'].split('/')[-1]
+
+    # get date
+    review['date'] = data_table.find_all('td')[1].text.strip()
+
+    # get content
+    review['content'] = soup.find('p', class_='card-text').text
+
+    return review
+
+# Course JSON schema:
+# { 8:
+#       { "course_id": 8,
+#         "depts": ["COMS"],
+#         "name": "Advanced Programming",
+#         "reviews": [...],
+#         "profs": [...]
+#       }
+# }
 def parse_course(html):
     soup = BeautifulSoup(html, 'html.parser')
     course = {}
+    course_data_table = soup.table
+    if course_data_table is None:
+        return None
+
     # get course name
+    course['name'] = course_data_table.find('h1').br.next.strip()
+
     # decide department
-    return None
+    course['depts'] = [
+            regularize_dept(t['href'].split('/')[-1]) for t in
+            course_data_table.find_all(
+            lambda t: t.name=='a' and t['href'].startswith('/dept/'))
+            ]
+
+    # get profs
+    course['profs'] = [
+            t['href'].split('/')[-1] for t in
+            course_data_table.find_all(
+            lambda t: t.name=='a' and t['href'].startswith('/prof/'))
+            ]
+
+    # get reviews
+    course['reviews'] = []
+    review_tags = soup.find_all('div', class_='card')
+    for tag in review_tags:
+        if tag.get('data-reviewpk'):
+            course['reviews'].append(tag.get('data-reviewpk'))
+        else:
+            print(f"course {course['name']} has no reviews")
+    return course
 
 def write_profs_json(profs):
     with open(profs_json_file, "w") as fp:
@@ -278,34 +320,57 @@ def write_reviews_json(reviews):
     with open(reviews_json_file, "w") as fp:
         fp.write(json.dumps(reviews, sort_keys=True, indent=4))
 
-def main():
-    profs = parse_all_profs(read_all_profs_page())
-    courses = {}
-    reviews = {}
-    
+def verify_courses(profs):
+    for prof_id, prof in profs.items():
+        for course in prof['courses']:
+            assert exists(course_file(course)), f"course {str(course)} not found for prof {str(prof_id)}"
+
+def verify_reviews(profs):
+    for prof_id, prof in profs.items():
+        for review in prof['reviews']:
+            assert exists(review_file(review)), f"review {str(review)} not found for prof {str(prof_id)}"
+
+def load_profs_json():
+    with open(profs_json_file, "r") as fp:
+        profs = json.loads(fp.read())
+    return profs
+
+def load_reviews_json():
+    with open(reviews_json_file, "r") as fp:
+        reviews = json.loads(fp.read())
+    return reviews
+
+def load_courses_json():
+    with open(courses_json_file, "r") as fp:
+        courses = json.loads(fp.read())
+    return courses
+
+def parse_courses_and_reviews(profs):
     for prof_id, prof in profs.items():
         print('prof', prof_id)
-        prof.update(parse_prof(read_prof_page(prof_id), prof_id))
         for course_id in prof['courses']:
             print('course', course_id)
             if course_id not in courses:
-                download_and_write_course_page(course_id)
                 courses[course_id] = parse_course(read_course_page(course_id))
+                if courses[course_id] is not None:
+                    courses[course_id]['course_id'] = course_id
+            else:
+                print('course', course_id, "already seen", file=sys.stderr)
         for review_id in prof['reviews']:
             print('review', review_id)
             if review_id not in reviews:
-                download_and_write_review_page(review_id)
                 reviews[review_id] = parse_review(read_review_page(review_id))
+                if reviews[review_id] is not None:
+                    reviews[review_id]['review_id'] = review_id
+            else:
+                print('review', review_id, "already seen", file=sys.stderr)
 
-    write_profs_json(profs)
-    write_courses_json(courses)
-    write_reviews_json(reviews)
-    
+def main():
+    profs = load_profs_json()
+    courses = load_courses_json()
+    reviews = load_reviews_json()
+
     # TODO:
-    #   * verify everything
-    #   * parse courses
-    #   * give good IDs to missing reviews
-    #   * parse reviews, including missing ones
     #   * fix the bad department codes
 
 if __name__ == "__main__":
