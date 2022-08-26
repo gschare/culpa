@@ -1,5 +1,5 @@
 {- stack
- exec ghci
+ runghc
  --package aeson
  --package html-entities
  --package text
@@ -19,7 +19,7 @@ import System.IO (writeFile)
 import System.Directory (createDirectory, removeDirectoryRecursive, getDirectoryContents, doesDirectoryExist, copyFile)
 import System.FilePath ((</>))
 import Control.Monad (forM_)
-import Control.Arrow ((***))
+--import Control.Arrow ((***))
 import qualified Data.ByteString.Lazy as BS -- Using ByteStrings for efficiency since data file is large.
 import qualified Data.Text as T
 import qualified Data.Text.IO as TIO
@@ -337,5 +337,6 @@ main = do
     -- Write courses pages
 
     -- Write reviews pages
+    -- No.
 
     putStrLn "done"

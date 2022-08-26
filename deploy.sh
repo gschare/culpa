@@ -5,8 +5,5 @@ SITE_BRANCH="gh-pages"
 
 stack build.hs
 
-git add $SITE_DIR
-git commit -m "Build site $(date)"
-git push -d origin $SITE_BRANCH
+#git add $SITE_DIR && git commit -m "Build site $(date +'%d %b %Y %T')"
 git subtree push --prefix $SITE_DIR origin $SITE_BRANCH
-git reset HEAD~1
