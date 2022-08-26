@@ -12,7 +12,7 @@
 **Evaluations**, as in written reviews of a particular class with a particular professor, based on first-hand experience, so that others may benefit from the wisdom of their peers.
 
 ## Why?
-This site is inspired by the late CULPA (Columbia Underground Listing of Professor Ability), which served the Columbia community high-quality and easily-available professor reviews for more than a decade. Unfortunately, it stopped being maintained and numerous alternate versions popped up. **This particular incarnation aims to carry on CULPA's original mission in spirit and promote its long-term sustainability through this _public_, _open-source_, _low-tech_ website.
+This site is inspired by the late CULPA (Columbia Underground Listing of Professor Ability), which served the Columbia community high-quality and easily-available professor reviews for more than a decade. Unfortunately, it stopped being maintained and numerous alternate versions popped up. **This particular incarnation aims to carry on CULPA's original mission in spirit and promote its long-term sustainability through this _public_, _open-source_, _low-tech_ website.**
 
 ## What about...
 
