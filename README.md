@@ -27,3 +27,6 @@ Get in contact and I'll take a look.
 
 ## How?
 JSON data, HTML templates written in the Pandoc templating language, and a Haskell script that generates a static website hosted by GitHub pages. New reviews submitted via Google Sheets and processed manually.
+
+## When?
+[Just now](https://youtu.be/5drjr9PmTMA).
