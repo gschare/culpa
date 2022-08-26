@@ -1,0 +1,2321 @@
+{
+    "filters": {
+        "departments": [
+            {
+                "label": "Accounting (ACCT)",
+                "value": "ACCT"
+            },
+            {
+                "label": "African Studies, Institute of",
+                "value": "AFST"
+            },
+            {
+                "label": "African-American Studies, Institute for Research in",
+                "value": "ARAF"
+            },
+            {
+                "label": "Africana Studies (AFSB)",
+                "value": "AFSB"
+            },
+            {
+                "label": "American Language Program",
+                "value": "ALP"
+            },
+            {
+                "label": "American Studies",
+                "value": "AMST"
+            },
+            {
+                "label": "American Studies @Barnard",
+                "value": "AMSB"
+            },
+            {
+                "label": "Anesthesiology",
+                "value": "ANES"
+            },
+            {
+                "label": "Anthropology",
+                "value": "ANTH"
+            },
+            {
+                "label": "Anthropology @Barnard",
+                "value": "ANTB"
+            },
+            {
+                "label": "Applied Physics and Applied Mathematics",
+                "value": "APAM"
+            },
+            {
+                "label": "Architecture @Barnard",
+                "value": "ARCB"
+            },
+            {
+                "label": "Architecture, Planning and Preservation",
+                "value": "ARPL"
+            },
+            {
+                "label": "Art History @Barnard",
+                "value": "ARHB"
+            },
+            {
+                "label": "Art History and Archaeology",
+                "value": "AHAR"
+            },
+            {
+                "label": "Arts, School of the",
+                "value": "ARTS"
+            },
+            {
+                "label": "Asian and Middle East @Barnard",
+                "value": "ASMB"
+            },
+            {
+                "label": "Astronomy",
+                "value": "ASTR"
+            },
+            {
+                "label": "Astronomy and Physics @Barnard",
+                "value": "ASTB"
+            },
+            {
+                "label": "Athena Center for Leadership Studies @Barnard",
+                "value": "ACLB"
+            },
+            {
+                "label": "Auditing",
+                "value": "AUDT"
+            },
+            {
+                "label": "Biochemistry and Molecular Biophysics",
+                "value": "BICH"
+            },
+            {
+                "label": "Biological Sciences",
+                "value": "BIOS"
+            },
+            {
+                "label": "Biological Sciences @Barnard",
+                "value": "BIOB"
+            },
+            {
+                "label": "Biomedical Engineering",
+                "value": "BMEN"
+            },
+            {
+                "label": "Biomedical Informatics",
+                "value": "BINF"
+            },
+            {
+                "label": "Biostatistics",
+                "value": "BIST"
+            },
+            {
+                "label": "Business",
+                "value": "BUSI"
+            },
+            {
+                "label": "Business Economics",
+                "value": "BUEC"
+            },
+            {
+                "label": "Cellular, Molecular, and Biophysical Studies",
+                "value": "CMBS"
+            },
+            {
+                "label": "Center for Innovative Theory and Empirics",
+                "value": "INCT"
+            },
+            {
+                "label": "Chemical Engineering",
+                "value": "CHEN"
+            },
+            {
+                "label": "Chemistry",
+                "value": "CHEM"
+            },
+            {
+                "label": "Chemistry @Barnard",
+                "value": "CHMB"
+            },
+            {
+                "label": "Civil Engineering and Engineering Mechanics",
+                "value": "CEEM"
+            },
+            {
+                "label": "Classics",
+                "value": "CLAS"
+            },
+            {
+                "label": "Classics @Barnard",
+                "value": "CLSB"
+            },
+            {
+                "label": "Cntr Environ Rsch & Conservat",
+                "value": "CERC"
+            },
+            {
+                "label": "Cognitive Science",
+                "value": "COGS"
+            },
+            {
+                "label": "Cognitive Science (Barnard)",
+                "value": "COGB"
+            },
+            {
+                "label": "Columbia College",
+                "value": "COLL"
+            },
+            {
+                "label": "Comparative Literature and Society @Barnard",
+                "value": "CSOB"
+            },
+            {
+                "label": "Comparative Literature and Society, Center for",
+                "value": "CCLS"
+            },
+            {
+                "label": "Computer Science",
+                "value": "COMS"
+            },
+            {
+                "label": "Contemporary Civilization and Literature Humanities",
+                "value": "COCI"
+            },
+            {
+                "label": "Dance @Barnard",
+                "value": "DANB"
+            },
+            {
+                "label": "Decision, Risk and Operations",
+                "value": "DROM"
+            },
+            {
+                "label": "Dental and Oral Surgery",
+                "value": "DEOS"
+            },
+            {
+                "label": "Dermatology",
+                "value": "DERM"
+            },
+            {
+                "label": "Drama and Theatre Arts",
+                "value": "THDR"
+            },
+            {
+                "label": "Earth and Environmental Engineering",
+                "value": "EAEE"
+            },
+            {
+                "label": "Earth and Environmental Sciences",
+                "value": "EESC"
+            },
+            {
+                "label": "Earth Institute",
+                "value": "EI"
+            },
+            {
+                "label": "East Asian Languages and Cultures",
+                "value": "EALC"
+            },
+            {
+                "label": "Ecology, Evolution, and Environmental Biology",
+                "value": "EEEB"
+            },
+            {
+                "label": "Economics",
+                "value": "ECON"
+            },
+            {
+                "label": "Economics @Barnard",
+                "value": "ECOB"
+            },
+            {
+                "label": "Education @Barnard",
+                "value": "EDNB"
+            },
+            {
+                "label": "Electrical Engineering",
+                "value": "ELEN"
+            },
+            {
+                "label": "Emergency Medicine",
+                "value": "EMED"
+            },
+            {
+                "label": "Engineering",
+                "value": "ENGI"
+            },
+            {
+                "label": "English @Barnard",
+                "value": "ENGB"
+            },
+            {
+                "label": "English and Comparative Literature",
+                "value": "ENCL"
+            },
+            {
+                "label": "Environmental Health Sciences",
+                "value": "EHSC"
+            },
+            {
+                "label": "Environmental Sciences @Barnard",
+                "value": "ENSB"
+            },
+            {
+                "label": "Epidemiology",
+                "value": "EPID"
+            },
+            {
+                "label": "Epidemiology: Exec Master Program",
+                "value": "EXEP"
+            },
+            {
+                "label": "Ethnicity and Race, Center for",
+                "value": "CSER"
+            },
+            {
+                "label": "Executive Masters in Public Health",
+                "value": "EMPH"
+            },
+            {
+                "label": "Film",
+                "value": "FILM"
+            },
+            {
+                "label": "Film @Barnard",
+                "value": "FLMB"
+            },
+            {
+                "label": "Finance",
+                "value": "FINC"
+            },
+            {
+                "label": "Finance and Economics",
+                "value": "FIEC"
+            },
+            {
+                "label": "First-Year Seminar Program @Barnard",
+                "value": "FYSB"
+            },
+            {
+                "label": "French",
+                "value": "FRRP"
+            },
+            {
+                "label": "French @Barnard",
+                "value": "FRNB"
+            },
+            {
+                "label": "General Studies",
+                "value": "GEST"
+            },
+            {
+                "label": "Genetics and Development",
+                "value": "GEND"
+            },
+            {
+                "label": "German @Barnard",
+                "value": "GRMB"
+            },
+            {
+                "label": "Germanic Languages",
+                "value": "GERL"
+            },
+            {
+                "label": "Global Health Track",
+                "value": "PHGH"
+            },
+            {
+                "label": "Global Programs",
+                "value": "DGLO"
+            },
+            {
+                "label": "Graduate School of Arts and Sciences",
+                "value": "GSAS"
+            },
+            {
+                "label": "Health Policy & Management",
+                "value": "HPMN"
+            },
+            {
+                "label": "History",
+                "value": "HIST"
+            },
+            {
+                "label": "History @Barnard",
+                "value": "HSTB"
+            },
+            {
+                "label": "Human Nutrition, Institute of",
+                "value": "HNUT"
+            },
+            {
+                "label": "Human Rights (HRTB)",
+                "value": "HRTB"
+            },
+            {
+                "label": "Humanities (College)",
+                "value": "HUMC"
+            },
+            {
+                "label": "Industrial Engineering and Operations Research",
+                "value": "IEOR"
+            },
+            {
+                "label": "Institute for Israel & Jewish Studies",
+                "value": "IIJS"
+            },
+            {
+                "label": "Institute for Study of Human Rights",
+                "value": "CSHR"
+            },
+            {
+                "label": "International and Public Affairs",
+                "value": "INTA"
+            },
+            {
+                "label": "Italian",
+                "value": "ITAL"
+            },
+            {
+                "label": "Italian @Barnard",
+                "value": "ITLB"
+            },
+            {
+                "label": "Journalism",
+                "value": "JOUR"
+            },
+            {
+                "label": "Juilliard",
+                "value": "JUIL"
+            },
+            {
+                "label": "Kyoto",
+                "value": "KYTO"
+            },
+            {
+                "label": "Language Resource Center",
+                "value": "LRC"
+            },
+            {
+                "label": "Latin-american & Carib Rs",
+                "value": "LCRS"
+            },
+            {
+                "label": "Law",
+                "value": "LAW"
+            },
+            {
+                "label": "Management",
+                "value": "MGMT"
+            },
+            {
+                "label": "Marketing",
+                "value": "MRKT"
+            },
+            {
+                "label": "Mathematics",
+                "value": "MATH"
+            },
+            {
+                "label": "Mathematics @Barnard",
+                "value": "MATB"
+            },
+            {
+                "label": "Mechanical Engineering",
+                "value": "MECE"
+            },
+            {
+                "label": "Medicine",
+                "value": "MEDI"
+            },
+            {
+                "label": "Medieval and Renaissance Studies",
+                "value": "MRST"
+            },
+            {
+                "label": "Microbiology",
+                "value": "MICR"
+            },
+            {
+                "label": "Middle Eastern, South Asian and African Studies",
+                "value": "MELC"
+            },
+            {
+                "label": "Modern European Studies",
+                "value": "MEUS"
+            },
+            {
+                "label": "Music",
+                "value": "MUSI"
+            },
+            {
+                "label": "Music @Barnard",
+                "value": "MUSB"
+            },
+            {
+                "label": "Neurobiology and Behavior",
+                "value": "NBIO"
+            },
+            {
+                "label": "Neurology",
+                "value": "NEUR"
+            },
+            {
+                "label": "Nursing",
+                "value": "NURS"
+            },
+            {
+                "label": "Obstetrics and Gynecology",
+                "value": "OBSG"
+            },
+            {
+                "label": "Ophthalmology",
+                "value": "OPHT"
+            },
+            {
+                "label": "Otolaryngology / Head and Neck Surgery",
+                "value": "OTOL"
+            },
+            {
+                "label": "Pathology",
+                "value": "PATH"
+            },
+            {
+                "label": "Pediatrics",
+                "value": "PEDI"
+            },
+            {
+                "label": "Pharmacology",
+                "value": "PHAR"
+            },
+            {
+                "label": "Philosophy",
+                "value": "PHIL"
+            },
+            {
+                "label": "Philosophy @Barnard",
+                "value": "PHLB"
+            },
+            {
+                "label": "Physical Education",
+                "value": "PHED"
+            },
+            {
+                "label": "Physical Education @Barnard",
+                "value": "PEDB"
+            },
+            {
+                "label": "Physics",
+                "value": "PHYS"
+            },
+            {
+                "label": "Physics and Astronomy @Barnard",
+                "value": "PHYB"
+            },
+            {
+                "label": "Physiology & Cellular Biophysics",
+                "value": "PHYG"
+            },
+            {
+                "label": "Political Science",
+                "value": "POLS"
+            },
+            {
+                "label": "Political Science @Barnard",
+                "value": "PLSB"
+            },
+            {
+                "label": "Population and Family Health",
+                "value": "POPF"
+            },
+            {
+                "label": "Pre-College Program",
+                "value": "SHSP"
+            },
+            {
+                "label": "Psychiatry",
+                "value": "PSCY"
+            },
+            {
+                "label": "Psychoanalytic Center",
+                "value": "PSCC"
+            },
+            {
+                "label": "Psychology",
+                "value": "PSYC"
+            },
+            {
+                "label": "Psychology @Barnard",
+                "value": "PSYB"
+            },
+            {
+                "label": "Public Health",
+                "value": "PUBH"
+            },
+            {
+                "label": "Radiology",
+                "value": "RADI"
+            },
+            {
+                "label": "Rehabilitation Medicine (RMED)",
+                "value": "RMED"
+            },
+            {
+                "label": "Religion",
+                "value": "RELI"
+            },
+            {
+                "label": "Religion @Barnard",
+                "value": "RELB"
+            },
+            {
+                "label": "School of Professional Studies",
+                "value": "DVSP"
+            },
+            {
+                "label": "School of Professional Studies (SCEN)",
+                "value": "SCEN"
+            },
+            {
+                "label": "Science and Public Policy @Barnard",
+                "value": "SCPB"
+            },
+            {
+                "label": "Slavic Languages",
+                "value": "SLAL"
+            },
+            {
+                "label": "Slavic Languages @Barnard",
+                "value": "SLAB"
+            },
+            {
+                "label": "Social Work",
+                "value": "SOCW"
+            },
+            {
+                "label": "Sociology",
+                "value": "SOCI"
+            },
+            {
+                "label": "Sociology @Barnard",
+                "value": "SOCB"
+            },
+            {
+                "label": "Sociomedical Sciences",
+                "value": "SOSC"
+            },
+            {
+                "label": "Spanish and Latin American Culture",
+                "value": "SPNB"
+            },
+            {
+                "label": "Spanish and Portuguese",
+                "value": "SPPO"
+            },
+            {
+                "label": "Statistics",
+                "value": "STAT"
+            },
+            {
+                "label": "Summer Session",
+                "value": "SUMM"
+            },
+            {
+                "label": "Surgery",
+                "value": "SURG"
+            },
+            {
+                "label": "Theatre @Barnard",
+                "value": "THEB"
+            },
+            {
+                "label": "Theatre Arts",
+                "value": "THEA"
+            },
+            {
+                "label": "Union Theological Seminary (UTFE)",
+                "value": "UTFE"
+            },
+            {
+                "label": "Union Theological Seminary (UTSD)",
+                "value": "UTSD"
+            },
+            {
+                "label": "Urban Studies @Barnard",
+                "value": "URSB"
+            },
+            {
+                "label": "Urology",
+                "value": "UROL"
+            },
+            {
+                "label": "Video Network",
+                "value": "VDEO"
+            },
+            {
+                "label": "Visual Arts",
+                "value": "VIAR"
+            },
+            {
+                "label": "Women's and Gender Studies",
+                "value": "WMST"
+            },
+            {
+                "label": "Women's, Gender, Sexuality Studies @Barnard",
+                "value": "WSTB"
+            },
+            {
+                "label": "Writing",
+                "value": "WRIT"
+            }
+        ],
+        "hint_messages": [
+            {
+                "label": "Class is blocked",
+                "value": "blocked"
+            },
+            {
+                "label": "Class is cancelled",
+                "value": "cancelled"
+            },
+            {
+                "label": "Class is full",
+                "value": "full"
+            },
+            {
+                "label": "Class is opened",
+                "value": "open"
+            },
+            {
+                "label": "Class is restricted",
+                "value": "restricted"
+            },
+            {
+                "label": "Not Found",
+                "value": "not_found"
+            }
+        ],
+        "program_courses": [
+            {
+                "label": "African-American Studies",
+                "value": "africanamericanstudies"
+            },
+            {
+                "label": "American Studies",
+                "value": "american_studies"
+            },
+            {
+                "label": "Ancient Studies",
+                "value": "ancient_studies"
+            },
+            {
+                "label": "Anthropology",
+                "value": "anthropology"
+            },
+            {
+                "label": "Archaeology",
+                "value": "archaeology"
+            },
+            {
+                "label": "Architecture",
+                "value": "architecture"
+            },
+            {
+                "label": "Art History and Archaeology",
+                "value": "art_history_archaeology"
+            },
+            {
+                "label": "Astronomy",
+                "value": "astronomy"
+            },
+            {
+                "label": "Biological Sciences",
+                "value": "biological_sciences"
+            },
+            {
+                "label": "Business",
+                "value": "business"
+            },
+            {
+                "label": "Chemistry",
+                "value": "chemistry"
+            },
+            {
+                "label": "Classics",
+                "value": "classics"
+            },
+            {
+                "label": "Comparative Literature and Society",
+                "value": "comparative_literature_society"
+            },
+            {
+                "label": "Computer Science",
+                "value": "computer_science"
+            },
+            {
+                "label": "Creative Writing",
+                "value": "creative_writing"
+            },
+            {
+                "label": "Dance",
+                "value": "dance"
+            },
+            {
+                "label": "Drama and Theatre Arts",
+                "value": "drama_theatre_arts"
+            },
+            {
+                "label": "Earth and Environmental Sciences",
+                "value": "earth_environmental_sciences"
+            },
+            {
+                "label": "East Asian Languages and Cultures",
+                "value": "east_asian_languages_cultures"
+            },
+            {
+                "label": "Ecology, Evolution, and Environmental Biology",
+                "value": "ecology_evolution_environmental_biology"
+            },
+            {
+                "label": "Economics",
+                "value": "economics"
+            },
+            {
+                "label": "Education",
+                "value": "education"
+            },
+            {
+                "label": "English and Comparative Literature",
+                "value": "english_comparative_literature"
+            },
+            {
+                "label": "Ethnicity and Race Studies",
+                "value": "ethnicity_race_studies"
+            },
+            {
+                "label": "Film Studies",
+                "value": "film_studies"
+            },
+            {
+                "label": "French and Romance Philology",
+                "value": "french_romance_philology"
+            },
+            {
+                "label": "Germanic Languages",
+                "value": "germanic_languages"
+            },
+            {
+                "label": "History",
+                "value": "history"
+            },
+            {
+                "label": "Human Rights",
+                "value": "human_rights"
+            },
+            {
+                "label": "Italian",
+                "value": "italian"
+            },
+            {
+                "label": "Jazz Studies",
+                "value": "jazz_studies"
+            },
+            {
+                "label": "Jewish Studies",
+                "value": "jewish_studies"
+            },
+            {
+                "label": "Latin American and Caribbean Studies",
+                "value": "latin_american_caribbean_studies"
+            },
+            {
+                "label": "Latin American and Iberian Cultures",
+                "value": "latin_american_iberian_cultures"
+            },
+            {
+                "label": "Linguistics",
+                "value": "linguistics"
+            },
+            {
+                "label": "Mathematics",
+                "value": "mathematics"
+            },
+            {
+                "label": "Medieval and Renaissance Studies",
+                "value": "medieval_renaissance_studies"
+            },
+            {
+                "label": "Middle Eastern, South Asian, and African Studies",
+                "value": "middle_eastern_south_asian_african_studies"
+            },
+            {
+                "label": "Music",
+                "value": "music"
+            },
+            {
+                "label": "Philosophy",
+                "value": "philosophy"
+            },
+            {
+                "label": "Physics",
+                "value": "physics"
+            },
+            {
+                "label": "Political Science",
+                "value": "political_science"
+            },
+            {
+                "label": "Psychology",
+                "value": "psychology"
+            },
+            {
+                "label": "Religion",
+                "value": "religion"
+            },
+            {
+                "label": "Slavic Languages",
+                "value": "slavic_languages"
+            },
+            {
+                "label": "Sociology",
+                "value": "sociology"
+            },
+            {
+                "label": "Statistics",
+                "value": "statistics"
+            },
+            {
+                "label": "Sustainable Development",
+                "value": "SDEV"
+            },
+            {
+                "label": "Urban Studies",
+                "value": "urban_studies"
+            },
+            {
+                "label": "Visual Arts",
+                "value": "visual_arts"
+            },
+            {
+                "label": "Women's and Gender Studies",
+                "value": "womens_gender_studies"
+            }
+        ],
+        "subjects": [
+            {
+                "label": "Actuarial Science",
+                "value": "ACTU"
+            },
+            {
+                "label": "Adult Dentistry",
+                "value": "ADDN"
+            },
+            {
+                "label": "African Civilization",
+                "value": "AFCV"
+            },
+            {
+                "label": "African-American Studies",
+                "value": "AFAS"
+            },
+            {
+                "label": "Africana Studies",
+                "value": "AFRS"
+            },
+            {
+                "label": "Africana Studies: English",
+                "value": "AFEN"
+            },
+            {
+                "label": "Akkadian",
+                "value": "AKAD"
+            },
+            {
+                "label": "American Studies",
+                "value": "AMST"
+            },
+            {
+                "label": "American Studies: History",
+                "value": "AMHS"
+            },
+            {
+                "label": "Ancient Studies",
+                "value": "ANCS"
+            },
+            {
+                "label": "Anesthesiology",
+                "value": "ANES"
+            },
+            {
+                "label": "Anthropology",
+                "value": "ANTH"
+            },
+            {
+                "label": "Anthropology: Middle East",
+                "value": "ANME"
+            },
+            {
+                "label": "Applied Mathematics",
+                "value": "APMA"
+            },
+            {
+                "label": "Applied Physics",
+                "value": "APPH"
+            },
+            {
+                "label": "Applied Physics and Applied Math",
+                "value": "APAM"
+            },
+            {
+                "label": "Applied Physics and Applied Math & Biomedical Eng",
+                "value": "APBM"
+            },
+            {
+                "label": "Aramaic",
+                "value": "ARAM"
+            },
+            {
+                "label": "Archaeology",
+                "value": "ACLG"
+            },
+            {
+                "label": "Architecture",
+                "value": "ARCH"
+            },
+            {
+                "label": "Art History",
+                "value": "AHIS"
+            },
+            {
+                "label": "Asian Civilization: East Asian",
+                "value": "ASCE"
+            },
+            {
+                "label": "Asian Civilization: Middle East",
+                "value": "ASCM"
+            },
+            {
+                "label": "Asian Humanities",
+                "value": "AHUM"
+            },
+            {
+                "label": "Asian Humanities: Music",
+                "value": "AHMM"
+            },
+            {
+                "label": "Asian Studies",
+                "value": "ASST"
+            },
+            {
+                "label": "Astronomy",
+                "value": "ASTR"
+            },
+            {
+                "label": "Astronomy and Physics",
+                "value": "ASPH"
+            },
+            {
+                "label": "Athena Center For Leadership Studies",
+                "value": "ACLS"
+            },
+            {
+                "label": "Auditing: African Studies",
+                "value": "AUFS"
+            },
+            {
+                "label": "Auditing: Anthropology",
+                "value": "AUAN"
+            },
+            {
+                "label": "Auditing: Art History",
+                "value": "AUAH"
+            },
+            {
+                "label": "Auditing: Asian Civilization: Middle East",
+                "value": "AUAM"
+            },
+            {
+                "label": "Auditing: Classical Civilization",
+                "value": "AUCC"
+            },
+            {
+                "label": "Auditing: Classical Literature",
+                "value": "AUCL"
+            },
+            {
+                "label": "Auditing: Comparative Literature",
+                "value": "AUCP"
+            },
+            {
+                "label": "Auditing: Comparative Literature: Russian",
+                "value": "AUCR"
+            },
+            {
+                "label": "Auditing: English",
+                "value": "AUEN"
+            },
+            {
+                "label": "Auditing: History",
+                "value": "AUHS"
+            },
+            {
+                "label": "Auditing: History: Middle East",
+                "value": "AUMH"
+            },
+            {
+                "label": "Auditing: History: Public Health",
+                "value": "AUHP"
+            },
+            {
+                "label": "Auditing: Middle East",
+                "value": "AUME"
+            },
+            {
+                "label": "Auditing: Music",
+                "value": "AUMS"
+            },
+            {
+                "label": "Auditing: Philosophy",
+                "value": "AUPH"
+            },
+            {
+                "label": "Auditing: Religion",
+                "value": "AURL"
+            },
+            {
+                "label": "Auditing: Russian",
+                "value": "AURS"
+            },
+            {
+                "label": "Auditing: Sociology",
+                "value": "AUSO"
+            },
+            {
+                "label": "Behavioral Science",
+                "value": "BHSC"
+            },
+            {
+                "label": "Bengali",
+                "value": "BENG"
+            },
+            {
+                "label": "Biochemistry",
+                "value": "BCHM"
+            },
+            {
+                "label": "Bioethics",
+                "value": "BIET"
+            },
+            {
+                "label": "Biological Conservation",
+                "value": "BICO"
+            },
+            {
+                "label": "Biology",
+                "value": "BIOL"
+            },
+            {
+                "label": "Biology and Chemistry",
+                "value": "BIOC"
+            },
+            {
+                "label": "Biomedical & Chemical Engineering",
+                "value": "BMCH"
+            },
+            {
+                "label": "Biomedical & Electrical Engineering",
+                "value": "BMEE"
+            },
+            {
+                "label": "Biomedical Engineering",
+                "value": "BMEN"
+            },
+            {
+                "label": "Biomedical Informatics",
+                "value": "BINF"
+            },
+            {
+                "label": "Biomedical-Electrical Engineering-Biology",
+                "value": "BMEB"
+            },
+            {
+                "label": "Biostatistics",
+                "value": "BIST"
+            },
+            {
+                "label": "Biotechnology",
+                "value": "BIOT"
+            },
+            {
+                "label": "Bosnian-Croatian-Serbian",
+                "value": "BCRS"
+            },
+            {
+                "label": "Business",
+                "value": "BUSI"
+            },
+            {
+                "label": "Business & Management",
+                "value": "BUMG"
+            },
+            {
+                "label": "Business & Marketing",
+                "value": "BUMR"
+            },
+            {
+                "label": "Business Economics",
+                "value": "BUEC"
+            },
+            {
+                "label": "Business Economics & Management",
+                "value": "ECMG"
+            },
+            {
+                "label": "C Programming",
+                "value": "CPRO"
+            },
+            {
+                "label": "Cantonese",
+                "value": "CANT"
+            },
+            {
+                "label": "Catalan",
+                "value": "CATL"
+            },
+            {
+                "label": "Cellular Molecular Biophysics",
+                "value": "CMBS"
+            },
+            {
+                "label": "Chemical Engineering",
+                "value": "CHEN"
+            },
+            {
+                "label": "Chemical Engineering & Applied Physics",
+                "value": "CHAP"
+            },
+            {
+                "label": "Chemical Engineering and Earth/Environmental Engineering",
+                "value": "CHEE"
+            },
+            {
+                "label": "Chemistry",
+                "value": "CHEM"
+            },
+            {
+                "label": "Chinese",
+                "value": "CHNS"
+            },
+            {
+                "label": "Civil Engineering",
+                "value": "CIEN"
+            },
+            {
+                "label": "Civil Engineering and Earth and Environmental Engineering",
+                "value": "CIEE"
+            },
+            {
+                "label": "Classical Civilization",
+                "value": "CLCV"
+            },
+            {
+                "label": "Classical Literature",
+                "value": "CLLT"
+            },
+            {
+                "label": "Classical Philology",
+                "value": "CLPH"
+            },
+            {
+                "label": "Classical Studies",
+                "value": "CLST"
+            },
+            {
+                "label": "CLIN PRAC",
+                "value": "CPMD"
+            },
+            {
+                "label": "Col Sch Pres",
+                "value": "CSP"
+            },
+            {
+                "label": "Communications",
+                "value": "COMM"
+            },
+            {
+                "label": "Communications Practice",
+                "value": "COPR"
+            },
+            {
+                "label": "Community Health",
+                "value": "COMH"
+            },
+            {
+                "label": "Comparative Literature",
+                "value": "CPLT"
+            },
+            {
+                "label": "Comparative Literature and Society",
+                "value": "CPLS"
+            },
+            {
+                "label": "Comparative Literature and Society & PSCC",
+                "value": "CLPS"
+            },
+            {
+                "label": "Comparative Literature: Czech",
+                "value": "CLCZ"
+            },
+            {
+                "label": "Comparative Literature: East Asian",
+                "value": "CLEA"
+            },
+            {
+                "label": "Comparative Literature: English",
+                "value": "CLEN"
+            },
+            {
+                "label": "Comparative Literature: French",
+                "value": "CLFR"
+            },
+            {
+                "label": "Comparative Literature: German",
+                "value": "CLGR"
+            },
+            {
+                "label": "Comparative Literature: Greek Modern",
+                "value": "CLGM"
+            },
+            {
+                "label": "Comparative Literature: Italian",
+                "value": "CLIA"
+            },
+            {
+                "label": "Comparative Literature: Middle East",
+                "value": "CLME"
+            },
+            {
+                "label": "Comparative Literature: Polish",
+                "value": "CLPL"
+            },
+            {
+                "label": "Comparative Literature: Russian",
+                "value": "CLRS"
+            },
+            {
+                "label": "Comparative Literature: Slavic",
+                "value": "CLSL"
+            },
+            {
+                "label": "Comparative Literature: Spanish",
+                "value": "CLSP"
+            },
+            {
+                "label": "Comparative Literature: Yiddish",
+                "value": "CLYD"
+            },
+            {
+                "label": "Computer Science",
+                "value": "COMS"
+            },
+            {
+                "label": "Computer Science and Electrical Engineering",
+                "value": "CSEE"
+            },
+            {
+                "label": "Computer Science and Operations Research",
+                "value": "CSOR"
+            },
+            {
+                "label": "Computer Science, Bioengineering & Med Info",
+                "value": "CBMF"
+            },
+            {
+                "label": "Construction Administration",
+                "value": "CNAD"
+            },
+            {
+                "label": "Contemporary Civilization",
+                "value": "COCI"
+            },
+            {
+                "label": "Czech",
+                "value": "CZCH"
+            },
+            {
+                "label": "Dance",
+                "value": "DNCE"
+            },
+            {
+                "label": "Decision, Risk & Operations Management",
+                "value": "DROM"
+            },
+            {
+                "label": "Dental Science",
+                "value": "DNSC"
+            },
+            {
+                "label": "Dermatology",
+                "value": "DERM"
+            },
+            {
+                "label": "Dutch",
+                "value": "DTCH"
+            },
+            {
+                "label": "Earth & Environmental and Chemical Engineering",
+                "value": "EACE"
+            },
+            {
+                "label": "Earth and Environmental Engineering",
+                "value": "EAEE"
+            },
+            {
+                "label": "Earth and Environmental Engineering, Civil Engineering, Inta",
+                "value": "ECIA"
+            },
+            {
+                "label": "Earth and Environmental Sciences",
+                "value": "EESC"
+            },
+            {
+                "label": "East Asian",
+                "value": "EAAS"
+            },
+            {
+                "label": "East Asian: Religion",
+                "value": "EARL"
+            },
+            {
+                "label": "Ecology, Evolution and Environmental Biology",
+                "value": "EEEB"
+            },
+            {
+                "label": "Economics",
+                "value": "ECON"
+            },
+            {
+                "label": "Economics: History",
+                "value": "ECHS"
+            },
+            {
+                "label": "Economics: Philosophy",
+                "value": "ECPH"
+            },
+            {
+                "label": "Economics: Political Science",
+                "value": "ECPS"
+            },
+            {
+                "label": "Education",
+                "value": "EDUC"
+            },
+            {
+                "label": "Egyptian",
+                "value": "EGYP"
+            },
+            {
+                "label": "Electrical and Mechanical Engineering",
+                "value": "EEME"
+            },
+            {
+                "label": "Electrical Eng/ Computer Science/ Biomedical Engineering",
+                "value": "ECBM"
+            },
+            {
+                "label": "Electrical Engineering",
+                "value": "ELEN"
+            },
+            {
+                "label": "Electrical Engineering and Computer Science",
+                "value": "EECS"
+            },
+            {
+                "label": "Electrical Engineering: Biomedical",
+                "value": "EEBM"
+            },
+            {
+                "label": "Electrical Engineering: Operations Research",
+                "value": "EEOR"
+            },
+            {
+                "label": "Emergency Medicine Selective",
+                "value": "EMER"
+            },
+            {
+                "label": "Endodontics (DOS)",
+                "value": "ENDO"
+            },
+            {
+                "label": "Engineering",
+                "value": "ENGI"
+            },
+            {
+                "label": "Engineering Mechanics",
+                "value": "ENME"
+            },
+            {
+                "label": "English",
+                "value": "ENGL"
+            },
+            {
+                "label": "English Theatre Arts",
+                "value": "ENTA"
+            },
+            {
+                "label": "English: Religion",
+                "value": "ENRE"
+            },
+            {
+                "label": "Entrepreneur and Innovation",
+                "value": "ENIN"
+            },
+            {
+                "label": "Environmental Biology",
+                "value": "ENVB"
+            },
+            {
+                "label": "Environmental Health Sciences",
+                "value": "EHSC"
+            },
+            {
+                "label": "Environmental Policy",
+                "value": "ENVP"
+            },
+            {
+                "label": "Epidemiology",
+                "value": "EPID"
+            },
+            {
+                "label": "Epidemiology: Exec Master Program",
+                "value": "EXEP"
+            },
+            {
+                "label": "Ethnicity and Race, Center for Study of",
+                "value": "CSER"
+            },
+            {
+                "label": "Exchange Program",
+                "value": "EX"
+            },
+            {
+                "label": "Exchange Scholar",
+                "value": "EXSC"
+            },
+            {
+                "label": "Executive International Perspective",
+                "value": "EXIP"
+            },
+            {
+                "label": "Executive Masters in Public Health",
+                "value": "EMPH"
+            },
+            {
+                "label": "Executive MPA Program",
+                "value": "EMPA"
+            },
+            {
+                "label": "Extended Residence",
+                "value": "EXRS"
+            },
+            {
+                "label": "Filipino",
+                "value": "FILI"
+            },
+            {
+                "label": "Film",
+                "value": "FILM"
+            },
+            {
+                "label": "Finance",
+                "value": "FINC"
+            },
+            {
+                "label": "Finnish",
+                "value": "FINN"
+            },
+            {
+                "label": "First-Year Seminar",
+                "value": "FYSB"
+            },
+            {
+                "label": "French",
+                "value": "FREN"
+            },
+            {
+                "label": "Fundraising Management",
+                "value": "FUND"
+            },
+            {
+                "label": "General Studies",
+                "value": "GEST"
+            },
+            {
+                "label": "Genetics and Development",
+                "value": "GEND"
+            },
+            {
+                "label": "Georgian",
+                "value": "GEOR"
+            },
+            {
+                "label": "German",
+                "value": "GERM"
+            },
+            {
+                "label": "Global French Studies MA",
+                "value": "GFRS"
+            },
+            {
+                "label": "Global Health Track",
+                "value": "PHGH"
+            },
+            {
+                "label": "Globalization: Challenge in International Economics & Policy",
+                "value": "EGLO"
+            },
+            {
+                "label": "Graphics",
+                "value": "GRAP"
+            },
+            {
+                "label": "Greek",
+                "value": "GREK"
+            },
+            {
+                "label": "Greek, Modern",
+                "value": "GRKM"
+            },
+            {
+                "label": "Health Information Technology",
+                "value": "HIFO"
+            },
+            {
+                "label": "Health Policy and Management",
+                "value": "HPMN"
+            },
+            {
+                "label": "History",
+                "value": "HIST"
+            },
+            {
+                "label": "History and Philosophy of Science",
+                "value": "HPSC"
+            },
+            {
+                "label": "History: East Asian",
+                "value": "HSEA"
+            },
+            {
+                "label": "History: Journalism",
+                "value": "HSJR"
+            },
+            {
+                "label": "History: Literature",
+                "value": "HILI"
+            },
+            {
+                "label": "History: Middle East",
+                "value": "HSME"
+            },
+            {
+                "label": "History: Political Science",
+                "value": "HSPS"
+            },
+            {
+                "label": "History: Public Health",
+                "value": "HSPB"
+            },
+            {
+                "label": "History: Slavic",
+                "value": "HSSL"
+            },
+            {
+                "label": "Hughes Science Pipeline Project",
+                "value": "HSPP"
+            },
+            {
+                "label": "Human Rights",
+                "value": "HRTS"
+            },
+            {
+                "label": "Humanities",
+                "value": "HUMA"
+            },
+            {
+                "label": "Hungarian",
+                "value": "HNGR"
+            },
+            {
+                "label": "Implantology",
+                "value": "IMPL"
+            },
+            {
+                "label": "Indonesian",
+                "value": "INDO"
+            },
+            {
+                "label": "Industrial and Mechanical Engineering",
+                "value": "IEME"
+            },
+            {
+                "label": "Industrial Engineering and Operations Research",
+                "value": "IEOR"
+            },
+            {
+                "label": "Information and Knowledge Strategy",
+                "value": "IKNS"
+            },
+            {
+                "label": "Interdepartment Seminar",
+                "value": "INSM"
+            },
+            {
+                "label": "Interdisciplinary Correlation",
+                "value": "INTC"
+            },
+            {
+                "label": "International Affairs",
+                "value": "INAF"
+            },
+            {
+                "label": "Introduction to Corporate Valuation",
+                "value": "CORP"
+            },
+            {
+                "label": "Introduction to Market Communications",
+                "value": "INMK"
+            },
+            {
+                "label": "Introduction to Physical Science",
+                "value": "INPS"
+            },
+            {
+                "label": "Irish",
+                "value": "IRSH"
+            },
+            {
+                "label": "Italian",
+                "value": "ITAL"
+            },
+            {
+                "label": "Japanese",
+                "value": "JPNS"
+            },
+            {
+                "label": "Jewish Studies",
+                "value": "JWST"
+            },
+            {
+                "label": "Journalism",
+                "value": "JOUR"
+            },
+            {
+                "label": "Juilliard",
+                "value": "JUIL"
+            },
+            {
+                "label": "Khmer",
+                "value": "KHMR"
+            },
+            {
+                "label": "Korean",
+                "value": "KORN"
+            },
+            {
+                "label": "Language and Identity",
+                "value": "LANI"
+            },
+            {
+                "label": "Latin",
+                "value": "LATN"
+            },
+            {
+                "label": "Latin American Civilization",
+                "value": "LACV"
+            },
+            {
+                "label": "Latin American, Caribbean, Regional Studies",
+                "value": "LCRS"
+            },
+            {
+                "label": "Law",
+                "value": "LAW"
+            },
+            {
+                "label": "Law: Political Science",
+                "value": "LWPS"
+            },
+            {
+                "label": "Linguistics",
+                "value": "LING"
+            },
+            {
+                "label": "Management",
+                "value": "MGMT"
+            },
+            {
+                "label": "Marketing",
+                "value": "MRKT"
+            },
+            {
+                "label": "Materials Science and Engineering",
+                "value": "MSAE"
+            },
+            {
+                "label": "Mathematics",
+                "value": "MATH"
+            },
+            {
+                "label": "Mathematics: Statistics",
+                "value": "MATS"
+            },
+            {
+                "label": "Matriculation and Facilities",
+                "value": "MTFC"
+            },
+            {
+                "label": "Mechanical and Biomedical Engineering",
+                "value": "MEBM"
+            },
+            {
+                "label": "Mechanical Engineering",
+                "value": "MECE"
+            },
+            {
+                "label": "Medical Informatics",
+                "value": "MIMD"
+            },
+            {
+                "label": "Medical School",
+                "value": "MDSC"
+            },
+            {
+                "label": "Medicine",
+                "value": "MD"
+            },
+            {
+                "label": "Medicine (MDMD)",
+                "value": "MDMD"
+            },
+            {
+                "label": "Medicine (MEDI)",
+                "value": "MEDI"
+            },
+            {
+                "label": "Medieval and Renaissance Studies (MRST)",
+                "value": "MRST"
+            },
+            {
+                "label": "Microbiology",
+                "value": "MICR"
+            },
+            {
+                "label": "Middle East",
+                "value": "MDES"
+            },
+            {
+                "label": "Middle East: North Africa",
+                "value": "MENA"
+            },
+            {
+                "label": "Modern European Studies",
+                "value": "MEUS"
+            },
+            {
+                "label": "Modern Mathematics",
+                "value": "MOMA"
+            },
+            {
+                "label": "Museum: Natural History",
+                "value": "AMNH"
+            },
+            {
+                "label": "Music",
+                "value": "MUSI"
+            },
+            {
+                "label": "Narrative Medicine",
+                "value": "NMED"
+            },
+            {
+                "label": "Negotiation and Conflict Resolution",
+                "value": "NECR"
+            },
+            {
+                "label": "Neurobiology and Behavior",
+                "value": "NBHV"
+            },
+            {
+                "label": "Neurology",
+                "value": "NEUR"
+            },
+            {
+                "label": "Neuroscience and Behavior",
+                "value": "NSBV"
+            },
+            {
+                "label": "New York University: Graduate",
+                "value": "NYUG"
+            },
+            {
+                "label": "Nursing",
+                "value": "NURS"
+            },
+            {
+                "label": "Nutrition",
+                "value": "NUTR"
+            },
+            {
+                "label": "Obstetrics & Gynecology",
+                "value": "OB"
+            },
+            {
+                "label": "Obstetrics & Gynecology (OBSG)",
+                "value": "OBSG"
+            },
+            {
+                "label": "Occupational Therapy",
+                "value": "OCCT"
+            },
+            {
+                "label": "Operative Dentistry",
+                "value": "OPDN"
+            },
+            {
+                "label": "Ophthalmology (OPHT)",
+                "value": "OPHT"
+            },
+            {
+                "label": "Oral Biology",
+                "value": "ORBL"
+            },
+            {
+                "label": "Oral History (MA)",
+                "value": "OHMA"
+            },
+            {
+                "label": "Oral Surgery",
+                "value": "ORSG"
+            },
+            {
+                "label": "Orthodontics",
+                "value": "ORTH"
+            },
+            {
+                "label": "Orthopedic Surgery (ORTS)",
+                "value": "ORTS"
+            },
+            {
+                "label": "Otolaryngology (OTOL)",
+                "value": "OTOL"
+            },
+            {
+                "label": "Pathology (PAMD)",
+                "value": "PAMD"
+            },
+            {
+                "label": "Pathology (PATH)",
+                "value": "PATH"
+            },
+            {
+                "label": "Pediatric Dentistry",
+                "value": "PEDI"
+            },
+            {
+                "label": "Pediatrics",
+                "value": "PE"
+            },
+            {
+                "label": "Pediatrics (Medical)",
+                "value": "PEDS"
+            },
+            {
+                "label": "Periodontics",
+                "value": "PDNT"
+            },
+            {
+                "label": "Pharmacology",
+                "value": "PHMD"
+            },
+            {
+                "label": "Pharmacology (PHAR)",
+                "value": "PHAR"
+            },
+            {
+                "label": "Philosophy",
+                "value": "PHIL"
+            },
+            {
+                "label": "Physical Education",
+                "value": "PHED"
+            },
+            {
+                "label": "Physical Medicine and Rehabilitation",
+                "value": "PMRH"
+            },
+            {
+                "label": "Physical Therapy",
+                "value": "PHYT"
+            },
+            {
+                "label": "Physics",
+                "value": "PHYS"
+            },
+            {
+                "label": "Physiology",
+                "value": "PSLG"
+            },
+            {
+                "label": "Planning",
+                "value": "PLAN"
+            },
+            {
+                "label": "Polish",
+                "value": "POLI"
+            },
+            {
+                "label": "Political Science",
+                "value": "POLS"
+            },
+            {
+                "label": "Population and Family Health",
+                "value": "POPF"
+            },
+            {
+                "label": "Portuguese",
+                "value": "PORT"
+            },
+            {
+                "label": "Princeton - Graduate",
+                "value": "PRNG"
+            },
+            {
+                "label": "Program In Economic Policy Management",
+                "value": "PEPM"
+            },
+            {
+                "label": "Prosthodontics",
+                "value": "PROS"
+            },
+            {
+                "label": "Psychiatry",
+                "value": "PS"
+            },
+            {
+                "label": "Psychoanalysis",
+                "value": "PSCA"
+            },
+            {
+                "label": "Psychology",
+                "value": "PSYC"
+            },
+            {
+                "label": "Public Affairs",
+                "value": "PUAF"
+            },
+            {
+                "label": "Public Health",
+                "value": "PB"
+            },
+            {
+                "label": "Public Health (PUBH)",
+                "value": "PUBH"
+            },
+            {
+                "label": "Punjabi",
+                "value": "PUNJ"
+            },
+            {
+                "label": "Quantitative Methods: Social Sciences",
+                "value": "QMSS"
+            },
+            {
+                "label": "Quechua",
+                "value": "QUCH"
+            },
+            {
+                "label": "Radiation Oncology (RAON)",
+                "value": "RAON"
+            },
+            {
+                "label": "Radiology (RADI)",
+                "value": "RADI"
+            },
+            {
+                "label": "Regional Institute",
+                "value": "REGN"
+            },
+            {
+                "label": "Registered",
+                "value": "REGI"
+            },
+            {
+                "label": "Religion",
+                "value": "RELI"
+            },
+            {
+                "label": "Research",
+                "value": "RSRH"
+            },
+            {
+                "label": "Residence Unit",
+                "value": "RESI"
+            },
+            {
+                "label": "Romanian",
+                "value": "RMAN"
+            },
+            {
+                "label": "Russian",
+                "value": "RUSS"
+            },
+            {
+                "label": "RWJ Scholars",
+                "value": "RWJS"
+            },
+            {
+                "label": "Scholarly Projects",
+                "value": "SP"
+            },
+            {
+                "label": "School of International & Public Affairs",
+                "value": "SIPA"
+            },
+            {
+                "label": "Science",
+                "value": "SCNC"
+            },
+            {
+                "label": "Science and Public Policy",
+                "value": "SCPP"
+            },
+            {
+                "label": "Science of Psychology",
+                "value": "PSYH"
+            },
+            {
+                "label": "Science/Tech/Math",
+                "value": "STEM"
+            },
+            {
+                "label": "Sinhala",
+                "value": "SINH"
+            },
+            {
+                "label": "SIPA Exchange Scholar",
+                "value": "IAEX"
+            },
+            {
+                "label": "Slavic Cultures",
+                "value": "SLCL"
+            },
+            {
+                "label": "Slavic Linguistics",
+                "value": "SLLN"
+            },
+            {
+                "label": "Slavic Literatures",
+                "value": "SLLT"
+            },
+            {
+                "label": "Social Work",
+                "value": "SOCW"
+            },
+            {
+                "label": "Sociology",
+                "value": "SOCI"
+            },
+            {
+                "label": "Sociomedical Sciences",
+                "value": "SOSC"
+            },
+            {
+                "label": "Sound Arts",
+                "value": "SOAR"
+            },
+            {
+                "label": "South Asian Studies",
+                "value": "SASS"
+            },
+            {
+                "label": "Spanish",
+                "value": "SPAN"
+            },
+            {
+                "label": "Sports Management",
+                "value": "SPRT"
+            },
+            {
+                "label": "Statistics",
+                "value": "STAT"
+            },
+            {
+                "label": "Statistics, Industrial Eng, & Operations Research",
+                "value": "SIEO"
+            },
+            {
+                "label": "Stock Market",
+                "value": "FINM"
+            },
+            {
+                "label": "Stomatology",
+                "value": "STOM"
+            },
+            {
+                "label": "Strategic Communications",
+                "value": "SCOM"
+            },
+            {
+                "label": "Surgery (SURG)",
+                "value": "SURG"
+            },
+            {
+                "label": "Sustainability Management",
+                "value": "SUMA"
+            },
+            {
+                "label": "Sustainable Development",
+                "value": "SDEV"
+            },
+            {
+                "label": "Sustainable Urban/New Designs",
+                "value": "SURB"
+            },
+            {
+                "label": "Swahili",
+                "value": "SWHL"
+            },
+            {
+                "label": "Swedish",
+                "value": "SWED"
+            },
+            {
+                "label": "Technology Management",
+                "value": "TMGT"
+            },
+            {
+                "label": "TEST",
+                "value": "TEST"
+            },
+            {
+                "label": "Theatre",
+                "value": "THTR"
+            },
+            {
+                "label": "Theatre Arts",
+                "value": "THEA"
+            },
+            {
+                "label": "Tibetan",
+                "value": "TIBT"
+            },
+            {
+                "label": "Ukrainian",
+                "value": "UKRN"
+            },
+            {
+                "label": "Urban Studies",
+                "value": "URBS"
+            },
+            {
+                "label": "Urology (UROL)",
+                "value": "UROL"
+            },
+            {
+                "label": "UTS Interreligious Engagement",
+                "value": "UTIE"
+            },
+            {
+                "label": "UTS UT Christian Ethics",
+                "value": "UTCE"
+            },
+            {
+                "label": "UTS UT Church and Society",
+                "value": "UTCS"
+            },
+            {
+                "label": "UTS UT Church History",
+                "value": "UTCH"
+            },
+            {
+                "label": "UTS UT Church Institutions",
+                "value": "UTCI"
+            },
+            {
+                "label": "UTS UT Commun Art and Worship",
+                "value": "UTCW"
+            },
+            {
+                "label": "UTS UT New Testament",
+                "value": "UTNT"
+            },
+            {
+                "label": "UTS UT Old Testament",
+                "value": "UTOT"
+            },
+            {
+                "label": "UTS UT Philosophy of Relig",
+                "value": "UTPR"
+            },
+            {
+                "label": "UTS UT Psychiatry and Religion",
+                "value": "UTPS"
+            },
+            {
+                "label": "UTS UT Religion and Education",
+                "value": "UTRE"
+            },
+            {
+                "label": "UTS UT Systematic Theology (UTST)",
+                "value": "UTST"
+            },
+            {
+                "label": "UTS UTS UT Ecumenics",
+                "value": "UTFE"
+            },
+            {
+                "label": "UTS-GENERAL",
+                "value": "UTBX"
+            },
+            {
+                "label": "UTS: COCURRIC",
+                "value": "UTSU"
+            },
+            {
+                "label": "Vietnamese",
+                "value": "VIET"
+            },
+            {
+                "label": "Visual Arts",
+                "value": "VIAR"
+            },
+            {
+                "label": "Wolof",
+                "value": "WLOF"
+            },
+            {
+                "label": "Women's Studies",
+                "value": "WMST"
+            },
+            {
+                "label": "Writing",
+                "value": "WRIT"
+            },
+            {
+                "label": "Yiddish",
+                "value": "YIDD"
+            },
+            {
+                "label": "Yoruba",
+                "value": "YORU"
+            },
+            {
+                "label": "Zulu",
+                "value": "ZULU"
+            }
+        ]
+    }
+}
+
