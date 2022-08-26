@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="assets/style.css">
+    <title>CULPA: Columbia Undergraduate Listing of Professor Ability</title>
+</head>
+<body>
+    <h1><a href="/index.html" style="color: black">CULPA</a></h1>
+    <h2>Departments</h2>
+    $for(depts)$
+    <p><a href="/dept/$it.dept_code$.html">$it.name$</a></p>
+    $endfor$
+    <p><a href="dept/index.html">Departments</a></p>
+    <p><a href="prof/index.html">All Professors</a></p>
+
+</body>
+</html>
+

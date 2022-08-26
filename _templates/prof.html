@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="assets/style.css">
+    <title>CULPA: Columbia Undergraduate Listing of Professor Ability</title>
+</head>
+<body>
+    <h1><a href="/index.html" style="color: black">CULPA</a></h1>
+    <h2>Professor $prof.name$</h2>
+    <p>
+    </p>
+
+    <div id="depts">
+    <h3>Departments</h3>
+    <ul>
+        $for(prof.depts)$
+        <li><a href="/dept/$it.dept_code$.html">$it.name$</a></li>
+        $endfor$
+    </ul>
+    </div>
+
+    <div id="courses">
+    <h3>Courses</h3>
+    <ul>
+        $for(prof.courses)$
+        <li><a href="/course/$it.course_id$.html">$it.name$</a></li>
+        $endfor$
+    </ul>
+    </div>
+
+    <div id="reviews">
+    <h3>Reviews</h3>
+    $for(prof.reviews)$
+    <div id="review-$it.review_id$">
+        <span>
+            <h4>$it.date$</h4>
+            <p>$it.course.name$</p>
+        </span>
+        <p>
+            $it.content$
+        </p>
+    </div>
+    $endfor$
+    </div>
+
+</body>
+</html>
+
